@@ -1,0 +1,47 @@
+{
+  "development": {
+    "username": "Raazdb_owner",
+    "password": "oX7v3uMwAkqr",
+    "database": "Raazdb",
+    "host": "ep-curly-haze-a5o79zzw.us-east-2.aws.neon.tech",
+    "port": "5432",
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "test": {
+    "username": "Raazdb_owner",
+    "password": "oX7v3uMwAkqr",
+    "database": "Raazdb",
+    "host": "ep-curly-haze-a5o79zzw.us-east-2.aws.neon.tech",
+    "port": "5432",
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  },
+  "production": {
+    "username": "Raazdb_owner",
+    "password": "oX7v3uMwAkqr",
+    "database": "Raazdb",
+    "host": "ep-curly-haze-a5o79zzw.us-east-2.aws.neon.tech",
+    "port": "5432",
+    "dialect": "postgres",
+    "ssl": true,
+    "dialectOptions": {
+      "ssl": {
+        "require": true,
+        "rejectUnauthorized": false
+      }
+    }
+  }
+}
