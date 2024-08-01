@@ -37,3 +37,43 @@
 </body>
 </html>
 
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lego Collection - About</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <%- include('partials/navbar', { page: '/404' }) %>
+  <h1>About Us</h1>
+
+  <!-- Page Content -->
+  <div class="container mx-auto">
+    <!-- Hero Section -->
+    <div class="hero bg-gray-100">
+      <h1 class="text-4xl font-bold text-center my-8">About Us</h1>
+      <p class="text-lg text-center mb-8">All about me</p> 
+    </div>
+
+    <!-- Content Section -->
+    <div class="container mx-auto mt-8">
+      <div class="grid grid-cols-1 sm:grid-cols-2 gap-6">
+        <!-- Left Column - Image -->
+        <div>
+          <img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSTEQ3wMRX0nptTYNzE6XvZ7ORgRbLDLc6UBQ&usqp=CAU" alt="Image" class="w-full h-auto rounded-lg">
+        </div>
+        <!-- Right Column - Text Blurb -->
+        <div>
+          <h2 class="text-2xl font-semibold mb-4">About Me</h2>
+          <p class="text-lg">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec vitae nisl ut ligula porta aliquet. Quisque nec neque sit amet mi efficitur vehicula ac vel arcu.</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
+

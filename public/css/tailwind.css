@@ -27,3 +27,33 @@
   padding: 20px;
   text-align: center;
 }
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+.header {
+  background-color: #4a90e2; 
+  color: #ffffff; 
+  padding: 20px;
+  text-align: center;
+}
+
+
+.nav-link {
+  color: #ffffff; 
+  text-decoration: none; 
+  margin: 0 10px;
+}
+
+.main-content {
+  padding: 20px;
+}
+
+.footer {
+  background-color: #f4f4f4; 
+  color: #333333; 
+  padding: 20px;
+  text-align: center;
+}
