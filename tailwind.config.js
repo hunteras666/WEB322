@@ -1,7 +1,6 @@
 
-// tailwind.config.js
 module.exports = {
-  purge: [],
+  content: ['./views/**/*.ejs'], // Updated this line to include .ejs files
   darkMode: false, // or 'media' or 'class'
   theme: {
     extend: {},
@@ -13,4 +12,5 @@ module.exports = {
     require('daisyui'),
     require('@tailwindcss/typography'),
   ],
-}
+};
+
