@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Lego Collection - Home</title>
+  <link rel="stylesheet" href="/css/main.css">
+</head>
+<body>
+  <!-- Navbar -->
+  <%- include('partials/navbar', { page: '/404' }) %>
+  <h1>Welcome to the Home Page</h1>
+
+  <!-- Page Content -->
+  <div class="container mx-auto">
+    <!-- Hero Section -->
+    <div class="hero bg-gray-100">
+      <h1 class="text-4xl font-bold text-center my-8">Explore Our Lego Collection</h1>
+      <a href="/lego/sets" class="btn mx-auto block w-40 text-center py-2 px-4 rounded bg-blue-500 text-white hover:bg-blue-600">Explore Sets</a>
+    </div>
+
+    <!-- Lego Set Cards -->
+    <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-6 mt-8">
+    <!-- Lego Set Card 2 -->
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img src="https://cdn.rebrickable.com/media/sets/0003977811-1.jpg" alt="Lego Set Image" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h2 class="text-lg font-semibold">Ninjago: Book of Adventures</h2>
+          <p class="text-sm text-gray-600">Description about the LEGO set goes here.</p>
+          <a href="/lego/sets/0003977811-1" class="btn mt-4 block w-full text-center py-2 px-4 rounded bg-blue-500 text-white hover:bg-blue-600">View Set</a>
+        </div>
+      </div>
+      
+      <!-- Lego Set Card 2 -->
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img src="https://cdn.rebrickable.com/media/sets/001-1.jpg" alt="Lego Set Image" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h2 class="text-lg font-semibold">Gears</h2>
+          <p class="text-sm text-gray-600">Description about the LEGO set goes here.</p>
+          <a href="/lego/sets/001-1" class="btn mt-4 block w-full text-center py-2 px-4 rounded bg-blue-500 text-white hover:bg-blue-600">View Set</a>
+        </div>
+      </div>  
+
+      <!-- Lego Set Card 3 -->
+      <div class="bg-white shadow-md rounded-md overflow-hidden">
+        <img src="https://cdn.rebrickable.com/media/sets/0011-2.jpg" alt="Lego Set Image" class="w-full h-48 object-cover">
+        <div class="p-4">
+          <h2 class="text-lg font-semibold">Town Mini-Figures</h2>
+          <p class="text-sm text-gray-600">Description about the LEGO set goes here.</p>
+          <a href="/lego/sets/0011-2" class="btn mt-4 block w-full text-center py-2 px-4 rounded bg-blue-500 text-white hover:bg-blue-600">View Set</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</body>
+</html>
